@@ -65,6 +65,7 @@ is the same as
             engine.registerSong(maybeSong)
         }
         engine.getSong = function(){return info.song;};
+        engine.getInfo = function(){return info;};
         engine.tick = function(){};
     })
 };
